@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+img{
+   max-width: 100%;
+}
+body{
+   font-family: 'Red Hat Display', sans-serif;
+   background-image: url(img/pattern-background-desktop.svg);
+   background-repeat: no-repeat;
+   align-items: center;
+   background-color: hsl(225, 100%, 94%) !important;
+
+}
+.attribution { 
+   font-size: 11px; 
+   text-align: center; 
+}
+.attribution a 
+{ 
+   color: hsl(228, 45%, 44%); 
+}
+.container{
+   margin: 50px;
+   height: 600px;
+   background-color: whitesmoke;
+   border-radius: 20px;
+   overflow: hidden;
+   font-size: 16px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+input{
+    font-family: 'Red Hat Display', sans-serif;
+      width: 400px;
+      height: 50px;
+      background-color: blue;
+      color: aliceblue;
+      border-radius: 10px;
+}
+.content{
+   margin: 20px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.content h1{
+   font-size: 30px;
+   font-weight: 800;
+}
+.content p{
+   color: gray;
+   Font-size: 16px;
+}
+.music-part{
+   width: 400px;
+   border-radius: 10px;
+   margin: 20px;
+   background-color: rgb(209, 205, 205);
+   height: 100px;
+   font: size 10px;
+   width: 100;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   align-content: space-around;
+   flex-direction: row;
+}
+.bottom{
+   margin: 20px ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#btn{
+   font-family:'Red Hat Display', sans-serif;
+   border: transparent;
+   box-shadow: 2px 10px 10px rgb(194, 177, 177);
+}
+#a{
+   text-decoration: none;
+   color: blue;
+   }
+
+   @media  (min-width: 400px){
+.bg_img{
+   background-image: url(img/pattern-background-mobile.svg) no-repeat center/cover;
+}
+}
